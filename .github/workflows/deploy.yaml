@@ -19,4 +19,4 @@ jobs:
       - name: Build Docker image
         run: docker build -t hequhik/pythonapi:latest .
       - name: Push Docker image
-        run: docker push hequhik/pythonapi:latest .
+        run: docker push hequhik/pythonapi:latest
